@@ -1,5 +1,7 @@
 # project js for homework after learning arrays and loops
+
 In order to use this config you have to install the following NPM packages
+
 ```
 npm init
 npm i -D @eslint/js eslint globals eslint-plugin-unicorn @stylistic/eslint-plugin prettier
@@ -8,6 +10,7 @@ npm i -D @eslint/js eslint globals eslint-plugin-unicorn @stylistic/eslint-plugi
 Then put eslint.config.mjs and .prettierrc into your base directory
 
 you can add a script to your package.json
+
 ```
 "scripts": {
   "lint": "eslint .",
@@ -16,6 +19,7 @@ you can add a script to your package.json
 ```
 
 **Alternatively**, just copy the content of this folder into your project folder and run
+
 ```
 npm i
 ```
